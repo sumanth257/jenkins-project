@@ -54,7 +54,7 @@ pipeline {
         }
         failure {
             // Actions to perform when the pipeline fails
-            echo 'Pipeline failed!'
+            echo 'Pipeline fail!'
         }
     }
 }
